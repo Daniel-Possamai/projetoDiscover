@@ -8,10 +8,14 @@
     --textColor: #ffffff;
     --bgUrl: url(../images/bg-mobile.jpg);
     --strokeColor: rgba(255, 255, 255, 0.5);
+    --surfaceColor: rgba(255, 255, 255, 0.1);
+    --highLightColor: rgba(255, 255, 255, 0.2);
 }
 
 .light{
     --textColor: #000;
     --bgUrl: url(../images/bg-mobile-light.jpg);
     --strokeColor: rgba(0, 0, 0, 0.5);
+    --surfaceColor: rgba(255, 255, 255, 0.05);
+    --highLightColor: #00000010;
 }

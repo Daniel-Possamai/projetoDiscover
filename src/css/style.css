@@ -44,17 +44,17 @@ ul li a{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(255, 255, 255, 0.1);
+    background: var(--surfaceColor);
     border: 1px solid var(--strokeColor);
     border-radius: 8px;
     backdrop-filter: blur(4px);
     text-decoration: none;
     font-weight: 500;
-    transition: background .3s;
+    transition: .3s;
 }
 
 ul li a:hover {
-    background: rgba(255, 255, 255, 0.05);
+    background: var(--strokeColor);
     border: 1.5px solid var(--textColor);
 }
 
@@ -76,7 +76,7 @@ ul li a:hover {
 }
 
 #socialLinks a:hover{
-    background: rgba(255, 255, 255, 0.2);
+    background: var(--highLightColor);
     padding: 16px;
     
 }
