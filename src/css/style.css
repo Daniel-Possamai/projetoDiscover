@@ -2,13 +2,30 @@ body{
     background: url(../images/bg-mobile.jpg) no-repeat top center/cover;
 }
 
+body *{
+    font-family: "Inter", sans-serif;
+    color: #ffffff;
+}
+
 #container{
     width: 360px;
-    height: 712px;
     border: 1px solid #fff;
-    margin: auto;
+    margin: 56px auto auto auto;
+}
+
+#profile{
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#profile p{
+    font-weight: 500;
+    line-height: 24px;
 }
 
 #profile img{
-    width: 150px;
+    width: 112px;
 }
