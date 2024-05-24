@@ -1,4 +1,5 @@
 body{
+    height: 100vh;
     background: var(--bgUrl) no-repeat top center/cover;
 }
 
@@ -8,7 +9,8 @@ body *{
 }
 
 #container{
-    width: 360px;
+    width: 100%;
+    max-width: 588px;
     margin: 56px auto auto auto;
     padding: 0 24px;
 }
@@ -133,4 +135,19 @@ footer{
 
 footer p span{
     font-weight: 500;
+}
+
+
+/* Reponsivo */
+
+/* Background */
+
+@media (min-width: 700px) {
+    :root {
+        --bgUrl: url(../images/bg-desktop.jpg);
+    }
+
+    .light{
+        --bgUrl: url(../images/bg-desktop-light.jpg);
+    }
 }
