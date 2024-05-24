@@ -85,6 +85,7 @@ ul{
 ul li a{
     padding: 16px;
     display: flex;
+    gap: 5px;
     align-items: center;
     justify-content: center;
     background: var(--surfaceColor);
