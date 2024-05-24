@@ -48,6 +48,7 @@ body *{
     position: absolute;
     z-index: 1;
     right: 0;
+    animation: slideOut .4s;
     top: 50%;
     transform:  translateY(-50%);
     transition: .3s;
@@ -69,7 +70,27 @@ body *{
 }
 
 .light #switch button{
-    left: 0;
+    animation: slideIn .4s forwards;
+}
+
+/* Animação */
+
+@keyframes slideIn {
+    0%{
+        right: 0;
+    }
+    100%{
+        right: 50%;
+    }
+}
+
+@keyframes slideOut{
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 50%;
+    }
 }
 
 
@@ -136,6 +157,8 @@ footer{
 footer p span{
     font-weight: 500;
 }
+
+
 
 
 /* Reponsivo */
